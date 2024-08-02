@@ -74,13 +74,13 @@ const Add = () => {
                         <p>Product category</p>
                         <select name='category' onChange={onChangeHandler} >
                             <option value="Salad">All</option>
-                            <option value="Rolls">Biriyani</option>
+                            {/* <option value="Rolls">Biriyani</option>
                             <option value="Deserts">Special</option>
                             <option value="Sandwich">Pothi Briyani</option>
                             <option value="Cake">Egg Briyani</option>
                             <option value="Pure Veg">Veg</option>
                             <option value="Pasta">Rice</option>
-                            <option value="Noodles">Cool Dinks</option>
+                            <option value="Noodles">Cool Dinks</option> */}
                         </select>
                     </div>
                     <div className='add-price flex-col'>
@@ -90,7 +90,7 @@ const Add = () => {
                 </div>
                 <button type='submit' className='add-btn' >ADD</button>
             </form>
-        </div>
+        </div>     
     )
 }
 
